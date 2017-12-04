@@ -1,0 +1,70 @@
+#background-image {
+  background: url('../images/park.jpg') no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 50px 0;
+  margin-bottom: 50px;
+}
+
+#background-image img{
+  display: flex;
+  margin: auto;
+  border-radius: 55%;
+}
+
+#hero img {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  border: 5px solid #3F8DA7;
+}
+
+#background-image h2 {
+  font-size: 28px;
+  margin: 0 0 20px 0;
+}
+
+#background-image h4 {
+  font-size: 18px;
+  margin: 20px 0 0 0;
+}
+
+.column{
+  display: inline-block;
+  margin: 30%;
+  text-align: center;
+  vertical-align: top;
+  margin: 0 10px;
+}
+
+.column img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  margin: 20px 0;
+}
+
+header {
+  background: #92E0E5;
+  color: white;
+  height: 50px;
+  padding: 0 25px;
+}
+
+header h2 {
+  float: left;
+  text-indent: -9999px;
+  background: url('../images/dog-icon.svg') no-repeat;
+  height: 35px;
+  width: 35px;
+  margin-top: 8px;
+}
+
+header nav{
+  float: right;
+}
+
+nav li{
+  display: inline-flex;
+  padding: 17px 12px;
+}
